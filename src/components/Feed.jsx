@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
-import { db } from "../firebase/Firebase.config";
+
 import {
   FaHeart,
   FaRegCommentDots,
@@ -9,6 +9,7 @@ import {
   FaUserPlus,
   FaEllipsisH,
 } from "react-icons/fa";
+import {db ,auth} from '../firebase/firebase.config'
 
 const funnyAvatars = ["🐸", "🦄", "🧙‍♂️", "🦕", "🐼", "🐙", "🧛‍♀️", "🤡"];
 

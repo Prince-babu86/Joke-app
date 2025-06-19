@@ -7,7 +7,7 @@ import {
   arrayUnion,
   doc,
 } from "firebase/firestore";
-import { db } from "../firebase/Firebase.config";
+import { db } from "../firebase/firebase.config";
 import { useNavigate } from "react-router-dom";
 
 const CreatePost = () => {

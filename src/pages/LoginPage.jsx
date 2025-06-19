@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc"; // Google icon
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth, db } from "../firebase/Firebase.config";
+import { auth, db } from "../firebase/firebase.config";
 import { doc, getDoc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
 import { useData } from "../Context/Wrapper";

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { collection, doc, setDoc } from "firebase/firestore";
-import { auth, db } from "../firebase/Firebase.config";
+import { auth, db } from "../firebase/firebase.config";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const SignupPage = () => {
@@ -154,7 +154,7 @@ const SignupPage = () => {
               Password
             </label>
             <input
-            required
+            req
               onChange={handleOnChange}
               value={formdata.password}
               type="password"

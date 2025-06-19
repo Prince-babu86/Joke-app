@@ -9,7 +9,7 @@ import {
   getDoc,
   addDoc
 } from "firebase/firestore";
-import { auth, db } from "../firebase/Firebase.config";
+import { auth, db } from "../firebase/firebase.config";
 
 export const DataContext = createContext();
 

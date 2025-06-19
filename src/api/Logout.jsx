@@ -1,6 +1,6 @@
 // authUtils.js
 import { signOut } from "firebase/auth";
-import { auth } from "../firebase/Firebase.config";
+import { auth } from "../firebase/firebase.config";
 import { useData } from "../Context/Wrapper";
 
 

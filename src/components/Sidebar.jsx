@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FiHome, FiSend, FiCompass, FiUser, FiLogOut, FiPlus } from "react-icons/fi";
 import { useData } from "../Context/Wrapper";
-import { auth } from "../firebase/Firebase.config";
+import { auth } from "../firebase/firebase.config";
 import { logoutUser } from "../api/Logout";
 import { Link } from "react-router-dom";
 auth;
