@@ -1,0 +1,16 @@
+@import "tailwindcss";
+ .menubar{
+        display: none;
+    }
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+    .for-mobile{
+        margin-left: 0;
+    }
+   .menubar{
+        display: block;
+    }
+}
